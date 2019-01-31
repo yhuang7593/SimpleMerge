@@ -6,7 +6,9 @@
  */
 public class SimpleMerge {
     public static int[] simpleMerge(int[] arr1, int[] arr2) {
-
+    int n=arr.length;
+    int[] temp=new int[n];
+    mergeSortHelper(arr, left:0, right:n-1, temp);
     }
 
 }
